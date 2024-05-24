@@ -1,0 +1,24 @@
+{
+  "name": "plantyoffood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/andreabalzano/PlantyofFood"
+  },
+  "author": "Andrea Balzano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
